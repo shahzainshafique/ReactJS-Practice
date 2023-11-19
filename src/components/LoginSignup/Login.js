@@ -36,7 +36,7 @@ const navigate= useNavigate();
       body: JSON.stringify(loginState),
     }).then((res) => res.json())
     .then((data) => {
-      console.log(data.fullname)
+      console.log(data);
       dispatch(setUserName(data.fullname));
       navigate("/");
     }).catch((e)=>console.log(e));};

@@ -13,7 +13,7 @@ const Navbar = () => {
             alt="Flowbite Logo"
           />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Flowbite welcomes {userName}
+            Flowbite {userName? `welcomes ${userName}` :''}
           </span>
         </a>
         <div class="flex md:order-2">
