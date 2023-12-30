@@ -1,0 +1,17 @@
+.box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: max-content;
+    padding: 3.2rem;
+    height: 25rem;
+    width: 25rem;
+}
+
+.headshot{
+    height: 5rem;
+    width: 5rem;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.ser{
+    font-family: cursive;
+}
